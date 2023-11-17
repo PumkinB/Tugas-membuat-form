@@ -1,0 +1,31 @@
+.lebar {
+    width: 20%;
+    padding: 2px;
+    
+}
+
+.textLebar {
+    width: 20%;
+}
+
+table, th , td {
+    border: 2px solid black;
+    margin-top: 100px;
+    background-color: #EEF5FF
+}
+
+h1 {
+    background-color: #e3e3e3;
+    border: 3px solid black;
+    margin-right: 80%;
+}
+
+.fitting-image {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 20px;
+    }
+
+body {
+    background: linear-gradient(to right, grey, white);
+}
