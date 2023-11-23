@@ -27,5 +27,11 @@ h1 {
     }
 
 body {
-    background: linear-gradient(to right, grey, white);
+    background-image: url(assets/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-color {
+    color: blue;
 }
