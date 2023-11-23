@@ -15,9 +15,10 @@ table, th , td {
 }
 
 h1 {
-    background-color: #e3e3e3;
+    background-color: #86C656;
     border: 3px solid black;
     margin-right: 80%;
+    color: #000;
 }
 
 .fitting-image {
@@ -32,10 +33,10 @@ body {
     background-repeat: no-repeat;
 }
 
-#textColor {
+form {
     color: #F4F269;
-    font-size: larger;
 }
+
 
 
 
