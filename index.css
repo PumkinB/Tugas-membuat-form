@@ -32,6 +32,10 @@ body {
     background-repeat: no-repeat;
 }
 
-.text-color {
-    color: blue;
+#textColor {
+    color: #F4F269;
+    font-size: larger;
 }
+
+
+
