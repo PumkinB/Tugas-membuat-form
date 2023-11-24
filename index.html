@@ -7,22 +7,24 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form action="/proses" method="post">
+<form id="myForm" method="post" autocomplete="off">
     <h1>Form Belajar</h1>
     <p>ini adalah website latihan pertama</p>
     <label for="name" class="panjang">Nama :</label>
-    <input type="text" placeholder="Nama">
+    <input id="username" type="text" placeholder="Nama" min="2" required>
     <br>
     <label for="birthdate">Tempat Lahir :</label>
-    <input type="date">
+    <input id="tanggal" type="date" required>
     <br>
     <label for="sex">Jenis Kelamin :</label>
-    <input type="radio" name="sex" value="Laki-laki">Laki-laki</input>
-    <input type="radio" name="sex" value="Perempuan">Perempuan</input>
+    <input type="radio" name="sex" value="Laki-laki" required>Laki-laki</input>
+    <input type="radio" name="sex" value="Perempuan" required>Perempuan</input>
     <br>
     <label for="message">Pesan :</label>
     <br>
-    <textarea class="textLebar" placeholder="Tuliskan Pesan mu disini"></textarea>
+    <textarea class="textLebar" placeholder="Tuliskan Pesan mu disini" required></textarea>
+    <br>
+    <div id="message"></div>
     <br>
     <input type="submit" value="Submit" class="lebar">
 
@@ -71,5 +73,6 @@
     </tr>
 
 </table>
+<script src="index.js"></script>
 </body>
 </html>
