@@ -7,26 +7,25 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<form id="myForm" method="post" autocomplete="off">
+<form id="form" autocomplete="off">
     <h1>Form Belajar</h1>
     <p>ini adalah website latihan pertama</p>
     <label for="name" class="panjang">Nama :</label>
-    <input id="username" type="text" placeholder="Nama" min="2" required>
+    <input id="username" type="text" placeholder="Nama">
+    <p id="error"></p>
     <br>
     <label for="birthdate">Tempat Lahir :</label>
-    <input id="tanggal" type="date" required>
+    <input id="tanggal" type="date">
     <br>
     <label for="sex">Jenis Kelamin :</label>
-    <input type="radio" name="sex" value="Laki-laki" required>Laki-laki</input>
-    <input type="radio" name="sex" value="Perempuan" required>Perempuan</input>
+    <input type="radio" name="sex" value="Laki-laki" id="sex">Laki-laki</input>
+    <input type="radio" name="sex" value="Perempuan" id="sex">Perempuan</input>
     <br>
     <label for="message">Pesan :</label>
     <br>
-    <textarea class="textLebar" placeholder="Tuliskan Pesan mu disini" required></textarea>
+    <textarea class="textLebar" placeholder="Tuliskan Pesan mu disini" id="pesan"></textarea>
     <br>
-    <div id="message"></div>
-    <br>
-    <input type="submit" value="Submit" class="lebar">
+    <input type="submit" value="Submit" class="lebar" onclick="kirimForm()">
 
     </form>
     
