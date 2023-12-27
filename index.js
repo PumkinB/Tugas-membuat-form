@@ -37,7 +37,7 @@ function kirimForm () {
         return;
     }
 
-    alert('TERIMA KASIH');
+    alert('Terima kasih sudah daftar di website kami!');
     location.reload();
 
 }
