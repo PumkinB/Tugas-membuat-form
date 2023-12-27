@@ -17,6 +17,11 @@ function kirimForm () {
     const sex = sexInput ? sexInput.value : '';
     const message = messageInput.value;
 
+    if(!name && !date && !sex && !message) {
+        alert('Mohon lengkapi form');
+        return;
+    }
+
     if (name.length < 3){
         alert('Masukkan nama');
         return;
